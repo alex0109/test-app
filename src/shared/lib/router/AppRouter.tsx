@@ -10,7 +10,7 @@ import { RequireAuth } from "../hoc/RequireAuth";
 export const AppRouter = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/test-app" element={<Home />} />
       <Route path="/news" element={<PostList />} />
       <Route
         path="/profile"

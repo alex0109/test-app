@@ -1,0 +1,10 @@
+.banner-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin: 20px 0px 20px 0px;
+  border-radius: 5px;
+  background-color: #8bc34a;
+  color: #fff;
+}

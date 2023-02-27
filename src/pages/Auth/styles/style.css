@@ -1,0 +1,19 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.auth-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: inherit;
+}
+
+.auth-button {
+  color: #4caf50;
+  border-color: #4caf50;
+}

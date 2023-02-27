@@ -1,0 +1,21 @@
+.grid-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 30px 0px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.post-image {
+  background-color: #388e3c;
+}
+
+.post {
+  min-height: 400px;
+}

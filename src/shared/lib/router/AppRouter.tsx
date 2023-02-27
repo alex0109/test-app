@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 
 import { Home } from "@/pages/Home/index";
 import { PostList } from "@/pages/News/index";
@@ -10,7 +10,9 @@ import { RequireAuth } from "../hoc/RequireAuth";
 export const AppRouter = () => {
   return (
     <Routes>
-      <Route path="*" element={<Home />} />
+      <Route path="/test-app" element={<Home />}>
+        <Navigate to="/" />
+      </Route>
       <Route path="/" element={<Home />} />
       <Route path="/news" element={<PostList />} />
       <Route
